@@ -1,0 +1,71 @@
+th {
+    border: black 1px solid;
+
+}
+table {
+  margin-top: 10%;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    padding: 0 15% 0 15%;
+}
+.imgs {
+    width: 33.33333%;
+    float: left;
+    background-color: black;
+}
+img {
+    width: 100%;
+    height: 550px;
+}
+img:hover {
+    opacity:0.8;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  width: 33.33333%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+form {
+  margin: 0 auto; 
+  margin-top: 10%;
+  width:250px;
+  border: black 1px solid;
+  padding: 10px;
+  background-color: cadetblue;
+}
+input {
+  width: 100%;
+  background-color: darkslateblue;
+  color: aliceblue;
+}
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aabcfe;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-kdxj{background-color:#c0c0c0;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-86rn{background-color:#3166ff;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-ha10{background-color:#cbcefb;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-0ec1{background-color:#cbcefb;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-yqdi{background-color:#c0c0c0;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+.tg .tg-cbes{background-color:#6200c9;color:#000000;border-color:#000000;text-align:center;vertical-align:middle}
+
