@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>Formular</title>
 </head>
 
@@ -21,13 +21,18 @@
     <div class="container">
         <p></p>
         <form action="get">
-            <p>E-mail: <input type="email" name="email" id="email"></p>
+            <div>
+                <div>
+                    <div>
+                        <p>E-mail: <input type="email" name="email" id="email"></p>
+                    </div>
+                </div>
+            </div>
             <p>Přezdívka: <input type="text" name="username" id="username"></p>
             <p>Heslo: <input type="password" name="password" id="password"></p>
             <p>Pohlaví:</p>
-            <p style="width: 50px;">muz: <input type="radio" name="pohlavi" id="muz">zena: <input type="radio"
-                    name="pohlavi" id="zena"></p>
-            <p style="float: right; margin-top: -70px;">jine: <input type="radio" name="pohlavi" id="jine"></p>
+            <p>muz: <input type="radio" name="pohlavi" id="muz">zena: <input type="radio" name="pohlavi" id="zena"></p>
+            <p>jine: <input type="radio" name="pohlavi" id="jine"></p>
             <p>Napiš něco o sobě: <input type="text"></p>
             <input type="submit" value="Odeslat">
         </form>
